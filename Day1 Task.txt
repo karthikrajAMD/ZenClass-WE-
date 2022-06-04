@@ -1,0 +1,17 @@
+1) HTTP1.1 vs HTTP2
+
+HTTP1.1
+
+The request loads one after another,so if the request can't load then it blocks all other request behind it .
+
+HTTP2 
+
+Here the Request loads as a single TCP connection to send all request at similar time so no request blocks the behind request.
+
+
+2) Object 
+  	In javascript object is not same as other primitive data type like(Number, Boolean, Null, undefined, String). 
+	Where Variable refers to value do not actually store the value, it actually a reference of a value which acts as
+	a reference or pointer that points to the location in the memory where the object is stored.
+					Object is the combination of primitive data type and reference data in the 
+	form of  key:value , pairs.
