@@ -1,0 +1,398 @@
+//1.Fix the bugs in below snippet.
+
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>guvi</h1>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <div>Guvi Geek Network</div>
+    </div>
+  </body>
+</html>
+
+//2.Try the below one
+
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>guvi</h1>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <div>Guvi Geek Network</div>
+    </div>
+  </body>
+</html>
+
+//3.Design a contact us form with all fields as required.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     body{
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+      }
+      .outer {
+        width: 500px;
+        background-color: antiquewhite;
+        border: 2px solid black;
+      }
+      div {
+        padding: 10px;
+      }
+      label {
+        display: inline-block;
+        width: 200px;
+      }
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="outer">
+        <h2><u>Contact us:</u></h2>
+        <div>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div>
+          <label for="phone ">Phone Number:</label>
+          <input type="number" id="phone" placeholder="+91" />
+        </div>
+        <div>
+          <label for="mail ">Your MailId:</label>
+          <input type="email" id="mail" placeholder="xyz@abc.com" />
+        </div>
+        <div>
+          <label for="add ">Address:</label>
+          <textarea name="Address" id="add" cols="30" rows="2"></textarea>
+        </div>
+        <div class="sub"><input type="submit" /></div>
+      </div>
+    </form>
+  </body>
+</html>
+
+//4. <code>
+
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+  <div>
+      <ul>
+          <li>Programming Language
+              <ul>
+                  <li>Javascript
+                      <ol>
+                          <li>Angular</li>
+                          <li>React</li>
+                          <li>Vue.js</li>
+                      </ol>
+                   </li>
+                  <li>Python
+                      <ol>
+                          <li>Django Framework</li>
+                          <li>Flask Framework</li>
+                      </ol>
+                  </li>
+                  <li>Database
+                      <ol>
+                          <li>Spring</li>
+                          <li>Maven</li>
+                          <li>Hibernate</li>
+                  </li>
+              </ul>
+          </li>
+          <li>Database
+              <ul>
+                  <li>MySQL</li>
+                  <li>MongoDB</li>
+                  <li>Cansandra</li>
+              </ul>
+          </li>
+      </ul>
+  </div>   
+</body>
+
+
+//5.Create an element that helps you to open the https://google.com in separate new tab.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="https://google.com/" target="_">Go to google</a>
+  </body>
+</html>
+
+//6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+    <form>
+      <div>
+            <span >Employee Type :</span>
+            <input type="radio" >Salaried</input>
+            <input type="radio" >Own Business</input>
+      </div>
+      </form>
+  </body>
+</html>
+
+//7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="forms.css" rel="stylesheet" />
+  </head>
+  <body class="full">
+    <div class="bg">
+      <form id="container">
+        <h2>Yes! I want to subscribe to <em>Mag-O-Zine</em></h2>
+        <div class="first-third">
+          <input type="text" class="name" placeholder="First Name" />
+          <input type="text" class="name" placeholder="Last Name" />
+        </div>
+        <div class="second">
+          <input
+            type="text"
+            placeholder="Address"
+            class="name"
+            maxlength="100"
+          />
+        </div>
+        <div class="first-third">
+          <input type="text" placeholder="City" class="name" />
+          <input type="text" placeholder="State" class="name" />
+          <input type="number" placeholder="Zip" class="name" />
+        </div>
+
+        <div class="subscribe">
+          <label>Subsribe for:</label>
+          <input type="checkbox" id="one-year" /><label for="one-year"
+            >1 year ($19.95) </label
+          ><input type="checkbox" id="two-years" /><label for="two-years"
+            >2 years ($35.00)</label
+          >
+        </div>
+        <div class="info">
+          <label>Send me more information about: </label>
+          <div class="one">
+            <input type="checkbox" id="one" />
+            <label for="one">Computer-Zine </label>
+          </div>
+          <div class="two">
+            <input type="checkbox" id="two" />
+            <label for="two">Fishing-Zine </label>
+          </div>
+          <div class="three">
+            <input type="checkbox" id="three" />
+            <label for="three">Cat-O-Zine </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+//..........CSS.............
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background: #000000;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+.bg {
+  width: 580px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+#container {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 540px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.subscribe {
+  margin-bottom: 10px;
+}
+.name {
+  border: none;
+  border-bottom: 3px solid black;
+}
+.first-third {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.second {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#three {
+  margin-bottom: 10px;
+}
+h2 {
+  display: flex;
+  color: white;
+  padding: 2px;
+  background-color: red;
+  font-size: 30px;
+  margin: 2px 5px 20px 5px;
+  font-family: serif;
+}
+
+
+
+//8.Use the table tag to design given image
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+      }
+      .outer {
+        width: 500px;
+        height: 250px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-family: serif;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <table>
+        <caption>
+          Health Chart
+        </caption>
+        <tr>
+          <th rowspan="2">State of Health</th>
+          <th colspan="2">Fasting Value</th>
+          <th>After Eating</th>
+        </tr>
+        <tr>
+          <th>Minimum</th>
+          <th>Maximum</th>
+          <th>2 hours after eating</th>
+        </tr>
+        <tr>
+          <td>Healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less than 140</td>
+        </tr>
+        <tr>
+          <td>Pre-Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+        </tr>
+        <tr>
+          <td>Diabetes</td>
+          <td>More than 126</td>
+          <td>N/A</td>
+          <td>More than 200</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+
+
+//9.
+
+
+
+
+//10.In your, HTML page add the below line and Highlight it without using any CSS.
+
+    <div>
+        <mark>HTML & CSS is awesome</mark>
+    </div>  
+
+
+//11. Create an HTML page, which should contain all types of input elements.     
+
+<div>
+      <ul>Types of Inputs:
+          <li>Button<br><input type="button" onclick="alert('Karthik Raja')" value="button"/></li>
+          <li>Checkbox<br><input type="checkbox" value=""/></li>
+          <li>radio:<br><input type="radio"/></li>
+          <li>Color<br><input type="color"/></li>
+          <li>Date<br><input type="date"/></li>
+          <li>Number<br><input type="Number"/></li>
+          <li>month<br><input type="month"/></li>
+          <li>week<br><input type="week"/></li>
+          <li>datetime-local<br><input type="datetime-local"/></li>
+          <li>email<br><input type="email"/></li>
+          <li>file<br><input type="file"/></li>
+          <li>hidden<br><input type="hidden"/></li>
+          <li>password<br><input type="password"/></li>
+          <li>reset<br><input type="reset"/></li>
+          <li>range<br><input type="range"/></li>
+          <li>search<br><input type="search"/></li>
+          <li>text<br><input type="text"/></li>
+          <li>Submit<br><input type="submit"/></li>
+          <li>url<br><input type="url"/></li>
+          <li>image<br><input type="image"/></li>
+          <li>telephone<br><input type="tel"/></li>
+          
+      </ul>
+  </div> 
