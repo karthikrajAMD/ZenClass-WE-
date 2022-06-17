@@ -3,10 +3,8 @@ body {
 }
 .a4 {
   width: 1400px;
-  height: 2000px;
   background-color: #322f2f;
   margin: 0 auto;
-  overflow: hidden;
 }
 img {
   width: 300px;
@@ -18,7 +16,11 @@ img {
   top: 45px;
   left: 520px;
 }
-
+.line {
+  width: 1400px;
+  height: 10px;
+  background-color: rgba(231, 229, 225, 0.527);
+}
 .white_border {
   height: 30px;
   background-color: white;
@@ -46,17 +48,16 @@ img {
 .left {
   box-sizing: border-box;
   width: 700px;
-  height: 1600px;
   font-size: 30px;
   background-color: white;
   position: relative;
   top: 100px;
   padding: 45px;
+  border-right: 1px dashed grey;
 }
 .right {
   box-sizing: border-box;
   width: 700px;
-  height: 1600px;
   font-size: 30px;
   background-color: white;
   position: relative;
@@ -66,19 +67,13 @@ img {
 .add {
   position: absolute;
   width: 1400px;
-  height: 50px;
+  height: 48px;
   background-color: white;
   font-size: 20px;
   font-family: sans-serif;
   text-align: center;
   letter-spacing: 2px;
-  top: 49px;
-}
-.profile {
-  /* margin-top: 30px; */
-}
-.skill {
-  /* margin-top: 30px; */
+  top: 50px;
 }
 h1 {
   display: inline;
