@@ -1,0 +1,78 @@
+#divi {
+  padding: 20px;
+  margin-top: 20px;
+  background: rgb(8, 253, 192);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 253, 192, 1) 0%,
+    rgba(0, 255, 136, 1) 35%,
+    rgba(7, 229, 237, 1) 100%
+  );
+}
+BODY {
+  background-color: rgba(255, 255, 0, 0.756);
+}
+
+label,
+select {
+  position: relative;
+  font-size: 20px;
+}
+
+select {
+  border: none;
+  background-color: rgb(187, 0, 255);
+  width: 250px;
+}
+
+#title {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 100px;
+  color: transparent;
+  background-image: url(https://media.giphy.com/media/30pjsLvNyaRY0eoE0b/giphy.gif);
+  background-position: center;
+  -webkit-background-clip: text;
+}
+#imag {
+  overflow: hidden;
+}
+.bodydisplay {
+  display: grid;
+  place-content: center;
+}
+#but {
+  background-color: rgb(9, 250, 146);
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#but:hover {
+  background-color: rgba(9, 250, 146, 0.747);
+  font-size: 19px;
+}
+#middle {
+  width: 10px;
+  background-color: rgb(187, 0, 255);
+}
+#breedimage {
+  width: 300px;
+
+  /* height: 500px; */
+  /* object-fit: ; */
+}
+#details {
+  padding: 10px;
+}
+
+.checked {
+  color: rgb(255, 89, 0);
+}
+.tabledata {
+  margin-top: 20px;
+}

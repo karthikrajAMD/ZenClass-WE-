@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <span id="title">CATS</span>
+
+      <div class="bodydisplay">
+        <label for="selectbreed" class="row">
+          <select
+            id="selectcat"
+            class="col col-md-auto col-sm-12 col-12"
+            name="selectbrand"
+          >
+            <option value="" selected="true" disabled="diabled">
+              Select Your Cat
+            </option>
+          </select>
+          <span id="but" class="col col-md-auto col-sm-4 col-4 mt-sm-2"
+            >Get My Cat</span
+          >
+        </label>
+      </div>
+      <div class="container">
+        <div id="divi" class="row justify-content-around">
+          <div id="imag" class="col col-md-7 col-lg-6">
+            <img
+              id="breedimage"
+              class="img-responsive"
+              src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-cat-free.png"
+            />
+          </div>
+          <div id="middle" class="col col-lg-1 d-none d-lg-block p-2"></div>
+          <div id="details" class="col col-lg-5 col-md-5 col-sm-12 col-12">
+            <div class="detail_prof">
+              <h2 class="heading2"></h2>
+
+              <div class="description"></div>
+
+              <table class="tabledata"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="fun.js"></script>
+  </body>
+</html>
