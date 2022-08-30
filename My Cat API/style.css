@@ -36,6 +36,9 @@ select {
 }
 #imag {
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .bodydisplay {
   display: grid;
@@ -59,6 +62,11 @@ select {
 #middle {
   width: 10px;
   background-color: rgb(187, 0, 255);
+}
+.img-resp {
+  width: 300px;
+
+  object-fit: cover;
 }
 #breedimage {
   width: 300px;
