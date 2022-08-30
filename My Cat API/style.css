@@ -22,9 +22,10 @@ select {
 select {
   border: none;
   background-color: rgb(187, 0, 255);
+}
+#selectcat {
   width: 250px;
 }
-
 #title {
   font-family: cursive;
   font-weight: bold;
@@ -40,6 +41,11 @@ select {
   align-items: center;
   justify-content: center;
 }
+.cat-intro {
+  font-size: 40px;
+  font-family: cursive;
+  color: rgb(176, 176, 18);
+}
 .bodydisplay {
   display: grid;
   place-content: center;
@@ -47,17 +53,21 @@ select {
 #but {
   background-color: rgb(9, 250, 146);
   display: flex;
-  padding: 5px;
+  padding: 10px;
+  font-size: 18px;
   justify-content: center;
   margin-left: 10px;
+  margin-bottom: 8px;
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: (All, 2s);
 }
 
 #but:hover {
   background-color: rgba(9, 250, 146, 0.747);
-  font-size: 19px;
+  box-shadow: 2px 2px 5px black;
+  width: 109px;
+  height: 46px;
 }
 #middle {
   width: 10px;

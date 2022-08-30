@@ -5,6 +5,7 @@ let description = document.querySelector(".description");
 let heading2 = document.querySelector(".heading2");
 let star = document.querySelector(".star");
 let details = document.querySelector(".tabledata");
+const catIntro = document.querySelector(".cat-intro");
 let callAPI = async () => {
   try {
     let response = await fetch("https://api.thecatapi.com/v1/breeds", {
@@ -30,7 +31,7 @@ function getimage(result) {
   }
   mybutton.addEventListener("click", () => {
     selectedbrand = select.options[select.selectedIndex].text;
-
+    catIntro.setAttribute("style", "display:none");
     catprofile(selectedbrand);
   });
 }
