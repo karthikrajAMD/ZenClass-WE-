@@ -149,7 +149,20 @@ a {
 .singleproduct:hover {
   box-shadow: 5px 5px 30px;
 }
-
+.home {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  border: none;
+  position: absolute;
+  left: 20%;
+  bottom: 74%;
+  background-color: pink;
+  color: blueviolet;
+  font-size: 20px;
+  cursor: pointer;
+  /* display: none; */
+}
 .descrip {
   position: absolute;
   overflow: scroll;

@@ -68,14 +68,21 @@ async function getalldata() {
       }
     });
 }
+const home = document.createElement("button");
+home.innerHTML = "Home";
+home.setAttribute("class", "home");
+home.setAttribute("style", "display:none");
+brandselect.append(home);
 const dispall = document.createElement("div");
 dispall.setAttribute("class", "productimg");
 product.append(dispall);
 getalldata();
 
 select.addEventListener("change", () => {
+  product.setAttribute("style", "display:visible");
+  home.setAttribute("style", "display:visible");
   head1.innerText = "";
-  header.innerHTML = "";
+  header.setAttribute("style", "display:none");
   selectedbrand = select.options[select.selectedIndex].text;
   select.options[0].disabled = true;
   if (selectedbrand === "Select Your Brand") {
@@ -87,6 +94,11 @@ select.addEventListener("change", () => {
     display(selectedbrand);
     brandselect.append(head1);
   }
+});
+home.addEventListener("click", () => {
+  header.setAttribute("style", "display:visible");
+  home.setAttribute("style", "display:none");
+  product.setAttribute("style", "display:none");
 });
 function display(brandname) {
   dispall.innerHTML = "";
